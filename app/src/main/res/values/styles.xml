@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:spinnerStyle">@style/Widget.AppCompat.Spinner.DropDown</item>
+        <item name="android:windowBackground">@android:color/white</item> <!-- Fondo blanco -->
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:background">#6750a4</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+    </style>
+
+</resources>
