@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/textViewHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="BORRAR DEPARTAMENTO\nElige el departamento que quieres borrar"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spinnerDepartamentos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewHeader"
+        android:padding="20dp"/>
+
+    <Button
+        android:id="@+id/borrarDepartamentoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerDepartamentos"
+        android:text="Borrar Departamento"
+        android:background="#6750a4"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-medium"
+        android:padding="20dp"/>
+
+</RelativeLayout>

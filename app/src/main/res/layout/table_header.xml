@@ -1,0 +1,56 @@
+<!-- table_header.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textViewHeaderNombre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Nom."
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginEnd="2dp"/>
+
+    <TextView
+        android:id="@+id/textViewHeaderApellidos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Apel."
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginEnd="2dp"/>
+
+    <TextView
+        android:id="@+id/textViewHeaderCorreo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:text="Correo"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginEnd="2dp"/>
+
+    <TextView
+        android:id="@+id/textViewHeaderRol"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Rol"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginEnd="2dp"/>
+
+    <TextView
+        android:id="@+id/textViewHeaderDepartamento"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Depto."
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+</LinearLayout>
